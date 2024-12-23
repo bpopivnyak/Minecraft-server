@@ -5,7 +5,7 @@ app.secret_key = "28800"
 
 @app.route("/")
 def Servers():
-    return render_template("base.html")
+    return render_template("index.html")
 
 app.run()
 
