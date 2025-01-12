@@ -1,28 +1,39 @@
 {% extends "base.html" %}
 
 {% block content %}
+<ul class="nav justify-content-center">
 <h1>The War of the World</h1>
-
+</ul>
+<ul class="nav justify-content-center">
 <p>Best server to play fun</p>
-<div class="card" style="width:400px">
-    <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image" style="width:100%">
+</ul>
+
+<div class="container">
+
+    <div class="row">
+         <div class="col-md-3 col-sm-6">
+        <div class="card" style="width:400px">
+    <img class="card-img-top" src="coin.jpg" alt="Card image" style="">
     <div class="card-body">
       <h4 class="card-title">Donation shop</h4>
       <p class="card-text">The shop to only real money</p>
       <a href="Donation" class="btn btn-primary">See</a>
     </div>
   </div>
-<!-- Centered nav -->
-<ul class="nav justify-content-center">
-<div class="card" style="width:400px">
+    </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+        <div class="card" style="width:400px">
     <div class="card-body">
       <h4 class="card-title">Servers</h4>
       <p class="card-text">Way to start a game</p>
       <a href="Servers" class="btn btn-primary">See</a>
     </div>
-</ul>
-    <ul class="nav justify-content-end">
-    <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
+</div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="">
     <div class="card" style="width:400px">
     <div class="card-body">
       <h4 class="card-title">Clans</h4>
@@ -30,9 +41,12 @@
       <a href="Cl@N$" class="btn btn-primary">See</a>
     </div>
     <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
-  </div>
+    </div>
 </div>
-</ul>>
-  </div>
+
+<!-- -->
 </div>
+
+
+
 {% endblock %}
