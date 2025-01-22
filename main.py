@@ -27,6 +27,18 @@ def Credits():
 def DataPlayer():
     return render_template("Login.html")
 
+@app.route("/Clan-page-1")
+def clanInfo1():
+    return render_template("Cl@n-page#1.html")
+
+@app.route("/Clan-page-2")
+def clanInfo2():
+    return render_template("Cl@n-page#2.html")
+
+@app.route("/Clan-page-3")
+def clanInfo3():
+    return render_template("Cl@n-page#3.html")
+
 
 app.run()
 
