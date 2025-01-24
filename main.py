@@ -39,6 +39,10 @@ def clanInfo2():
 def clanInfo3():
     return render_template("Cl@n-page#3.html")
 
+@app.route("/Clan-page-4")
+def clanInfo4():
+    return render_template("Cl@n-page#4.html")
+
 
 app.run()
 
